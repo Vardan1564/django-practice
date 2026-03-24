@@ -12,5 +12,7 @@ def menu(request):
 
 def food(request):
     return render(request,'food.html')
+
+
 def combo(request):
     return render(request,'combo.html')
